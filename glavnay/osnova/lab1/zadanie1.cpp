@@ -12,10 +12,7 @@ int main()
     float res1=c/d;
     cout<<"РЕЗУЛЬТАТ1;"<<res1<<endl;
     
-
-
-//результат когда работает с double(2.2207e+14)
-
+//результат когда работает с double(2e+14)
    double a2=1000;
      double b2=0.0001;
     double c2=pow(a2-b2,4)-pow(a2,4)-4*pow(a2,3)*b2+6*pow(a2,2)*pow(b2,2);
